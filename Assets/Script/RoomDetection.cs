@@ -19,8 +19,6 @@ public class RoomDetection : MonoBehaviour
     public bool onRoom;
     public bool roomFini;
 
-    public int nbMonstreInRoom;
-
 
     void Start()
     {

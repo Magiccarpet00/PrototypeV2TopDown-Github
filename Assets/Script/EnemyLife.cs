@@ -28,6 +28,7 @@ public class EnemyLife : MonoBehaviour
         {
             currentShield = currentShield - damage;
             BreakShield();
+
         }
         else
         {
@@ -43,6 +44,8 @@ public class EnemyLife : MonoBehaviour
     {        
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(transform.parent.gameObject);
+
+        
     }
 
     public void BreakShield()
@@ -55,6 +58,6 @@ public class EnemyLife : MonoBehaviour
                 Destroy(child.gameObject);
             }
         }
-        return;
+        
     }
 }

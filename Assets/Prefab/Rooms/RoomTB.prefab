@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900939601689689485}
   - component: {fileID: 1900939601689689484}
+  - component: {fileID: 238125884258337966}
   m_Layer: 0
   m_Name: RoomTB
   m_TagString: Untagged
@@ -84,6 +85,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &238125884258337966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900939601689689475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40dd0072c11a3bf4a8fbb69b11ef244d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2391061220972449524
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +300,7 @@ GameObject:
   - component: {fileID: 7600695956791211965}
   - component: {fileID: 7050183376669017422}
   - component: {fileID: 4929362800107573882}
+  - component: {fileID: 8256250908549449478}
   m_Layer: 0
   m_Name: Detection
   m_TagString: Untagged
@@ -352,6 +366,20 @@ MonoBehaviour:
   timeOffSet: 0.3
   posOffSet: {x: 0, y: 0, z: -10}
   onRoom: 0
+  roomFini: 0
+--- !u!114 &8256250908549449478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7283249671586981415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87311b54af729ff44aa7ca47586d351b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nbMonstres: 0
 --- !u!1 &7686221250715407750
 GameObject:
   m_ObjectHideFlags: 0
